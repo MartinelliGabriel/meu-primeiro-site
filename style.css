@@ -25,4 +25,14 @@ button:hover {
   width: 150px;
   border-radius: 50%;
   margin-top: 20px;
+}p {
+  color: #ccc;
+  font-size: 18px;
+  margin: 10px 0;
+}h1 {
+  transition: 0.3s;
+}
+
+h1:hover {
+  transform: scale(1.05);
 }
