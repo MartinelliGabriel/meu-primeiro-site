@@ -1,51 +1,70 @@
 body {
-  background-color: #0d0d0d;
+  background: linear-gradient(135deg, #0d0d0d, #003322, #000000);
+  background-size: 300% 300%;
+  animation: fundoAnimado 8s ease infinite;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-  color: #00ff88;
-}
-button {
-  background-color: #00ff88;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-button:hover {
-  background-color: #00cc6a;
-}img {
-  width: 150px;
-  border-radius: 50%;
-  margin-top: 20px;
-}p {
-  color: #ccc;
-  font-size: 18px;
-  margin: 10px 0;
-}h1 {
-  transition: 0.3s;
-}
-
-h1:hover {
-  transform: scale(1.05);
-}.card {
-  .card {
+.card {
+  background-color: #1c1c1c;
+  padding: 40px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.15);
   transition: 0.3s;
 }
 
 .card:hover {
   transform: scale(1.03);
 }
-}body {
-  font-family: 'Poppins', sans-serif;
-}.social {
+
+h1 {
+  color: #00ff88;
+  transition: 0.3s;
+}
+
+h1:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+p {
+  color: #ccc;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  background: linear-gradient(135deg, #00ff88, #00cc6a);
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.social {
   margin-top: 25px;
 }
 
@@ -62,4 +81,18 @@ h1:hover {
 .social a:hover {
   color: #00cc6a;
   transform: scale(1.1);
+}
+
+@keyframes fundoAnimado {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
