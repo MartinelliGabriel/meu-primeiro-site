@@ -43,4 +43,23 @@ h1:hover {
 .card:hover {
   transform: scale(1.03);
 }
+}body {
+  font-family: 'Poppins', sans-serif;
+}.social {
+  margin-top: 25px;
+}
+
+.social a {
+  display: inline-block;
+  margin: 8px;
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: #00cc6a;
+  transform: scale(1.1);
 }
