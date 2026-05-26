@@ -1,9 +1,9 @@
 body {
-  background-color: #111;
-  color: white;
-  text-align: center;
-  font-family: Arial;
-  padding-top: 100px;
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {
@@ -35,4 +35,12 @@ button:hover {
 
 h1:hover {
   transform: scale(1.05);
+}.card {
+  .card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
 }
