@@ -17,6 +17,8 @@ body {
   text-align: center;
   box-shadow: 0 0 30px rgba(0, 255, 136, 0.15);
   transition: 0.3s;
+
+  animation: aparecer 1s ease;
 }
 
 .card:hover {
@@ -94,5 +96,17 @@ button:active {
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
