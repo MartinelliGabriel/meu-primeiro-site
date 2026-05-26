@@ -1,3 +1,3 @@
 function clicarBotao() {
-  alert("Você clicou no botão 🚀");
+  document.getElementById("texto").innerText = "Agora sou dev de verdade 😎";
 }
