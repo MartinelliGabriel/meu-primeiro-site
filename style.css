@@ -46,6 +46,21 @@ p {
   margin: 10px 0;
 }
 
+  body {
+  background: linear-gradient(135deg, #0d0d0d, #003322, #000000);
+  background-size: 300% 300%;
+  animation: fundoAnimado 8s ease infinite;
+
+  transition: background 0.5s ease;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+
 button {
   background: linear-gradient(135deg, #00ff88, #00cc6a);
   color: black;
